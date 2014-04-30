@@ -32,6 +32,6 @@ get '/animal' do
 	erb :animal_form
 end	
 post '/animal' do
-	@animal = Animal.new params[:name]
+	@animal = Animal.new params[:dog]
 	erb :animal
 end

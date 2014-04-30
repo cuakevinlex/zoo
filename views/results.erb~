@@ -1,0 +1,10 @@
+<html>
+	<head>
+			<style type = "text/css">
+			body{background-color: rgb(100,255,255);}
+		</style>
+	</head>
+	<body>
+		<h1>You searched for <%= @term %></h1>
+	</body>
+</html>

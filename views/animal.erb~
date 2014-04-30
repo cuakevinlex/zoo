@@ -1,0 +1,9 @@
+<html>
+	<body>
+		<form method="POST action="/animal">
+			<label for="name">Enter name of your spirit animal</label>
+			<input type = "text" name="name" />
+			<input type = "submit" value = "submit" />
+		</form>
+	</body>
+</html>
