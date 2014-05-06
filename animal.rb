@@ -3,9 +3,7 @@ class Animal
 	def initialize(name)
 		@name = name
 	end
-	def initialize
-
-	end
+	
 	def say_my_name
 		"My name is #{@name}"
 	end

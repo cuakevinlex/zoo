@@ -1,4 +1,6 @@
+require 'rubygems'
 require 'sinatra'
+require './animal.rb'
 
 get '/' do
 	@message = 'Fire drill in the LS schools'
